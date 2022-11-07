@@ -36,7 +36,7 @@ def symbol_compare(x):
 
 vect_symbol_compare = np.vectorize(symbol_compare)
 
-st.set_page_config(layout="centered", page_icon="🎥", page_title="HSL384 web-app")
+st.set_page_config(layout="centered", page_icon="🍿", page_title="HSL384 web-app")
 
 # Data visualisation part
 
