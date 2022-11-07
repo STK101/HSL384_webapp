@@ -47,7 +47,7 @@ all_symbols = source["Actor 1"]
 all_symbols = all_symbols.append(source["Actor 2"])
 all_symbols = all_symbols.append(source["Actor 3"])
 all_symbols = all_symbols.unique()
-symbols = st.multiselect("Choose Actors to visualize", all_symbols, all_symbols[:3])
+symbols = st.multiselect("Choose Actors to visualize", all_symbols, ["Amitabh Bachchan" , "Abhishek Bachchan"])
 
 space(1)
 
